@@ -127,7 +127,7 @@ while webcam.isOpened():
         cv2.rectangle(image,box[:2],box[2:],color,2)
         cv2.putText(image,name,(box[0], box[1] - 2),cv2.FONT_HERSHEY_SIMPLEX,0.75,[225, 255, 255],thickness=2)  
 
-    print('SONG MINJI 2210888')    #<===== 여기에 여러분들의 학번이 표시되도록 합니다.
+    print('[INFO] draw all detected boxes by Prof. SONG MINJI 2210888')    #<===== 여기에 여러분들의 학번이 표시되도록 합니다.
 
     image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR) # PIL image --> opencv image Mat buffer
     
